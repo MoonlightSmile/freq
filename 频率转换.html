@@ -1,0 +1,44 @@
+<!--
+	蔡逍侠
+	2017/9/1
+	频率转换，去对照表容易出错，遂写下此demo。
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>频率转换</title>
+	<link href="bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="freq.css">
+	<script src="jquery.js" type="text/javascript"></script>
+	<script src="choose.js" type="text/javascript"></script>
+
+</head>
+<body>
+	<div class="haha center-block">
+		<ul class="nav nav-pills nav-stacked">
+			<li alt="cutiao" ><a href="#" class="btn">粗调转换页面</a></li>
+			<li alt="jingpin"><a href="#" class="btn">精品转换页面</a></a></li>
+		</ul>
+		<div class="center-block">
+			<div>
+				<div>
+					<textarea id="in"></textarea>
+				</div>
+				<p class="help-block">
+				----请输入需要转换的频率。<br>
+				<br>
+					1、输入键值输出频率表；<br>
+					2、输入频率输出频率表；<br>
+					3、每个数字中间用","号隔开；<br>
+					4、如果此键不做则输入“0”；<br>
+				</p>
+				<button class="btn btn-lg">转换</button>
+			</div>
+
+			<div id="out">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
