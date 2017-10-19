@@ -10,7 +10,7 @@ function printFreqTable(freq) {
 
 		for (var i = 0; i < len; i++) {
 			var currentA = arrStr[i];
-			var reverseFreq;
+			var reverseFreq = "没有此键";
 			if (!isReverse()) {
 				currentFreq.forEach(function(value, index, array) {
 					if (value == currentA) {
